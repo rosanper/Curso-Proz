@@ -1,0 +1,176 @@
+/* Resetando configurações */
+
+* {
+    padding:0;
+    margin:0;
+    vertical-align:baseline;
+    list-style:none;
+    border:0
+    }
+
+
+/* Header     */
+
+header {
+    background-color: coral;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header a {
+    text-decoration: none;
+    padding: 5px;
+    color: white;
+}
+
+header div {
+    margin: 0 10px;
+}
+
+#logo-conteudo {
+    display: flex;
+    align-items: center;
+}
+
+#logo-conteudo img {
+    height: 50px;
+    width: 50px;
+    padding: 5px;
+}
+
+#logo-conteudo a {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+/* Main */
+
+main {
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    color: coral;
+    font-size: 100px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
+}
+
+.apresentacao-empresa {
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.apresentacao-empresa p {
+    margin: 50px;
+}
+
+.apresentacao-pontos-turisticos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.apresentacao-pontos-turisticos div:nth-child(3) {
+    flex-direction: row-reverse;
+}
+
+#introducao {
+    margin: 50px 0;
+}
+
+#introducao h2 {
+    color: coral;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 50px;
+}
+
+.ponto-turistico {
+    display: flex;
+    border: 3px coral solid;
+    margin: 50px;
+    border-radius: 30px;
+    padding: 50px;
+}
+
+.ponto-turistico img {
+    height: 300px;
+    width: 400px;
+}
+
+.ponto-turistico-conteudo {
+    padding: 0 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.ponto-turistico-conteudo h3 {
+    font-size: 30px;
+}
+
+.ponto-turistico-conteudo a {
+    border: 2px coral solid;
+    border-radius: 20px;
+    width: 200px;
+    padding: 15px;
+    margin: 10px;
+    text-align: center;
+    background-color: coral;
+    text-decoration: none;
+    color: white;
+}
+
+
+/* Footer */
+
+footer {
+    height: 200px;
+    background-color: coral;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer li {
+    color: white;
+}
+
+footer li img {
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+}
+
+footer h4 {
+    color: white;
+    margin-bottom: 15px;
+    text-decoration: underline;
+}
+
+#logo img {
+    height: 150px;
+    width: 150px;
+    padding: 5px;
+}
+
+#redes-sociais-conteudo {
+    padding: 50px;
+}
+
+#informacoes-paginas-conteudo {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+#informacoes-paginas-conteudo a {
+    text-decoration: none;
+    color: white;
+}
